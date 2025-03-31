@@ -1,0 +1,22 @@
+{
+  "name": "geolocation",
+  "version": "1.0.0",
+  "main": "Dms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "geolocation": "file:"
+  }
+}

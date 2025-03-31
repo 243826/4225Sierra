@@ -1,0 +1,8 @@
+Memo,Type,Distance,Direction,Bearing,Radius,Delta
+point closest to C3 Destination,L,417.77,TRUE,N 89 44 04 E,,
+point closest to L36 destination (radius: 82 + 130),C,31.62,TRUE,,212,?
+Parallel to Parag Fence,L,250,TRUE,N 10 57 31 E,,
+angled to Parag Fence (so illegible!),L,96.87,TRUE,N 39 02 29 W,,
+Close to the trees,L,575.68,TRUE,S 89 44 04 W,,
+Moving back to Sierra Curve,L,331.87,TRUE,S 11 23 51 E,,
+Curve Near Sierra,C,74.8,TRUE,,385,?

@@ -1,0 +1,17 @@
+﻿Memo,Type,Distance,Direction,Bearing,Radius,Delta
+29,L,778.16,TRUE,S 43 30 00 E,,
+33,L,38.29,TRUE,N 60 32 11 E,,
+1,C,87.86,FALSE,,390.014760833,12 54 26
+34,L,151.47,TRUE,N 47 37 45 E,,
+2,C,93.93,TRUE,,259.989979211,20 42 00
+35,L,18.78,TRUE,N 68 19 45 E,,
+3,C,95.17,TRUE,,255.004177845,21 23 00
+36,L,417.97,TRUE,N 89 42 45 E,,
+4 - parcel 2,C,57.96,TRUE,,82,40 29 58
+from center of the road to side of the road,L,33.05,TRUE,N 10 57 31 E,,
+from parag gate to ridge,L,1098.24,TRUE,N 10 57 31 E,,
+from ridge towards L12,L,850.00,TRUE,N 10 57 31 E,,
+12,L,149.21,TRUE,N 37 10 38 W,,
+13,L,171.60,TRUE,N 39 25 38 W,,
+14,L,376.20,TRUE,N 86 40 38 W,,
+15,L,234.30,TRUE,S 75 19 22 W,,

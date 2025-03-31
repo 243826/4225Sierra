@@ -1,0 +1,4 @@
+﻿Memo,Type,Distance,Direction,Bearing,Radius,Delta
+nola x sierra to trees,L,751.05,TRUE,N 63 59 57 E,,
+from trees to ridge,L,880,TRUE,N 14 27 52 E,,
+across the ridge,L,757.62,TRUE,N 01 12 23 W,,
