@@ -1,17 +1,31 @@
-﻿Memo,Type,Distance,Direction,Bearing,Radius,Delta
-29,L,619.80,TRUE,S 43 30 00 E,,
-33,L,37.94,TRUE,N 60 36 27 E,,
-1,C,88.49,FALSE,,390,13 00 01
-34,L,151.14,TRUE,N 47 36 26 E,,
-2,C,94.01,TRUE,,260,20 42 57
-35,L,18.72,TRUE,N 68 19 23 E,,
-3,C,95.29,TRUE,,255,21 24 41
-36,L,417.77,TRUE,N 89 44 04 E,,
-4 - parcel 2,C,57.96,TRUE,,82,40 29 58
-from center of the road to side of the road,L,33.05,TRUE,N 10 57 31 E,,
-from parag gate to ridge,L,1098.24,TRUE,N 10 57 31 E,,
-from ridge towards L12,L,850.00,TRUE,N 10 57 31 E,,
-12,L,149.21,TRUE,N 37 10 38 W,,
-13,L,171.60,TRUE,N 39 25 38 W,,
-14,L,376.20,TRUE,N 86 40 38 W,,
-15,L,234.30,TRUE,S 75 19 22 W,,
+﻿H,V,Memo,Name,Type
+
+H,P,Memo,Latitude,Longitude
+P,NolaXSierra,37.41414942,-121.824768425
+
+H,L,Memo,Distance,Direction,Bearing
+L,29,619.80,TRUE,S 43 30 00 E
+L,33,37.94,TRUE,N 60 36 27 E
+
+H,C,Memo,Distance,Direction,Radius,Delta
+C,1,88.49,FALSE,390,13 00 01
+
+L,34,151.14,TRUE,N 47 36 26 E
+
+C,2,94.01,TRUE,260,20 42 57
+
+L,35,18.72,TRUE,N 68 19 23 E
+
+C,3,95.29,TRUE,255,21 24 41
+
+L,36,417.77,TRUE,N 89 44 04 E
+
+C,4 - parcel 2,57.96,TRUE,82,40 29 58
+
+L,from center of the road to side of the road,33.05,TRUE,N 10 57 31 E
+L,from parag gate to ridge,1098.24,TRUE,N 10 57 31 E
+L,from ridge towards L12,850.00,TRUE,N 10 57 31 E
+L,12,149.21,TRUE,N 37 10 38 W
+L,13,171.60,TRUE,N 39 25 38 W
+L,14,376.20,TRUE,N 86 40 38 W
+L,15,234.30,TRUE,S 75 19 22 W

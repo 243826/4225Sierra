@@ -1,0 +1,7 @@
+﻿H,P,Memo,Latitude,Longitude
+P,NolaXSierra,37.41414942,-121.824768425
+
+H,L,Memo,Distance,Direction,Bearing
+L,nola x sierra to trees,751.05,TRUE,N 63 59 57 E
+L,from trees to ridge,880,TRUE,N 14 27 52 E
+L,across the ridge,757.62,TRUE,N 01 12 23 W

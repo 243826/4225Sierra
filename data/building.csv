@@ -1,8 +1,38 @@
-Memo,Type,Distance,Direction,Bearing,Radius,Delta
-point closest to C3 Destination,L,417.77,TRUE,N 89 44 04 E,,
-point closest to L36 destination (radius: 82 + 130),C,31.62,TRUE,,212,?
-Parallel to Parag Fence,L,250,TRUE,N 10 57 31 E,,
-angled to Parag Fence (so illegible!),L,96.87,TRUE,N 39 02 29 W,,
-Close to the trees,L,575.68,TRUE,S 89 44 04 W,,
-Moving back to Sierra Curve,L,331.87,TRUE,S 11 23 51 E,,
-Curve Near Sierra,C,74.8,TRUE,,385,?
+H,V,Memo,Name
+H,P,Memo,Latitude,Longitude
+H,L,Memo,Distance,Direction,Bearing
+H,F,Memo,Name,Args...
+
+P,NolaXSierra,37.41414942,-121.824768425
+
+L,29,619.80,TRUE,S 43 30 00 E
+L,33,37.94,TRUE,N 60 36 27 E
+
+H,C,Memo,Distance,Direction,Radius,TurnForCenter
+C,1,88.49,FALSE,390,-90
+
+L,34,151.14,TRUE,N 47 36 26 E
+
+C,2,94.01,TRUE,260,90
+
+L,35,18.72,TRUE,N 68 19 23 E
+
+C,3,95.29,TRUE,255,90
+
+F,Bearing of L36,bearingToDegrees,N 89 44 04 E
+V,Bearing of L36,BearingL36
+
+F,Anticlockwise perpendicular bearing,adjustDegrees,$BearingL36,-90
+V,Bearing of the line perpendicular to L36,PerpendicularL36Bearing
+
+F,erase previous points,clearDestinationPoints
+L,move 30 (1/2 of road) + 100 (building offset) feet away from the road,130,TRUE,$PerpendicularL36Bearing
+L,building boundary along L36,417.77,TRUE,$BearingL36
+
+# L,point closest to C3 Destination,417.77,TRUE,N 89 44 04 E
+C,point closest to L36 destination (radius: 82 + 130),31.62,TRUE,212,90
+L,Parallel to Parag Fence,250,TRUE,N 10 57 31 E
+L,angled to Parag Fence (so illegible!),96.87,TRUE,N 39 02 29 W
+L,Close to the trees,575.68,TRUE,S 89 44 04 W
+L,Moving back to Sierra Curve,331.87,TRUE,S 11 23 51 E
+C,Curve Near Sierra,74.8,TRUE,385,0
