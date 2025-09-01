@@ -1,7 +1,8 @@
-﻿H,V,Memo,Name,Type
+﻿H,V,Memo,Name
 
 H,P,Memo,Latitude,Longitude
 P,NolaXSierra,37.41414942,-121.824768425
+V,Monument Near Nola and Sierra Boundary,NolaXSierraMonument
 
 H,L,Memo,Distance,Direction,Bearing
 L,29,619.80,TRUE,S 43 30 00 E
@@ -29,3 +30,12 @@ L,12,149.21,TRUE,N 37 10 38 W
 L,13,171.60,TRUE,N 39 25 38 W
 L,14,376.20,TRUE,N 86 40 38 W
 L,15,234.30,TRUE,S 75 19 22 W
+
+
+H,P,Memo,Latitude,Longitude
+P,NolaXSierra,37.41414942,-121.824768425
+
+H,L,Memo,Distance,Direction,Bearing
+L,nola x sierra to trees,751.05,TRUE,N 63 59 57 E
+L,from trees to ridge,880,TRUE,N 14 27 52 E
+L,across the ridge,757.62,TRUE,N 01 12 23 W

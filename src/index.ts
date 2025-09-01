@@ -217,7 +217,6 @@ function getDestinationPoints<T extends BaseRecord>(records: T[]) {
   for (let i = 0; i < records.length; i++) {
     const record = records[i] as BaseRecord;
 
-    console.log("record", record);
     switch (record.Type) {
       case "P":
         result = point(record as PointRecord);
